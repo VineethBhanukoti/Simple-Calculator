@@ -1,0 +1,30 @@
+.format1
+{
+    margin: auto;
+    float:right;
+    padding-top: 15%;
+    position: relative;
+}
+body
+{
+    background-image: url("2.jpg");
+    background-size: 100% 100%;
+    /* background-color: rgb(154, 154, 87); */
+}
+h1{
+    color:rgb(38, 38, 38);
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.format3
+{
+    width:70px;
+    float: left;
+}
+input
+{
+    height: 50px;
+    width: 70px;
+    color: rgb(255, 255, 243);
+    background-color: rgba(49, 49, 49, 0.993);
+}

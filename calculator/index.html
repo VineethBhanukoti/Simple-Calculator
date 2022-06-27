@@ -1,0 +1,41 @@
+<html>
+    <head >
+        <title>Simple Calculator</title>
+    </head>
+    <body >
+        <div style="width: 900px;height: 500px;">
+            <div class="format1">
+                <h1>Simple Calculator</h1>
+                <input type="text" value="" id = "result" style="width: 280px;"><br>
+                <div class="format3">
+                    <input type="button" value=1 id="one" onclick="get_number('one')"><br>              
+                    <input type="button" value=4 id="for" onclick="get_number('for')"><br>
+                    <input type="button" value=7 id="sev" onclick="get_number('sev')"><br>
+                    <input type="button" value=0 id="zer" onclick="get_number('zer')" style = "width: 140px;"><br>
+                    <input type="button" value="Submit" id="sb" onclick="result()" style="width:100px;"><br>
+                </div>
+                <div class="format3">
+                    <input type="button" value=2 id="two" onclick="get_number('two')"><br>
+                    <input type="button" value=5 id="fiv" onclick="get_number('fiv')"><br>
+                    <input type="button" value=8 id="eit" onclick="get_number('eit')"><br>
+                </div>
+                <div class="format3">
+                    <input type="button" value=3 id="tre"onclick="get_number('tre')"><br>
+                    <input type="button" value=6 id="six" onclick="get_number('six')"><br>
+                    <input type="button" value=9 id="nin" onclick="get_number('nin')"><br>
+                    <input type="button" value="AC" onclick="reset()"><br>
+                </div>
+                <div class="format3">
+                    <input type="button" value="*" id="mul" onclick="operator('mul')"><br>
+                    <input type="button" value="/" id="div"onclick="operator('div')"><br>
+                    <input type="button" value="+" id="sm"onclick="operator('sm')"><br>
+                    <input type="button" value="-" id="sub" onclick="operator('sub')"><br>
+                </div>
+            </div>
+        </div>
+        <script 
+                src = "calc.js">
+        </script>
+    </body>
+    <link rel="stylesheet" href="cal_css.css">
+</html>
